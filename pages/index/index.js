@@ -51,9 +51,19 @@ Page({
       hasUserInfo: true
     })
   },
-  startApp: function(e) {
+  navto: function(e) {
     wx.navigateTo({
       url: '../ToDoList/ToDoList'
+    })
+  },
+  redi: function (e) {
+    wx.redirectTo({
+      url: '../ToDoList/ToDoList'
+    })
+  },
+  switchtab:function(e){
+    wx.switchTab({
+      url: '../logs/logs',
     })
   }
 })

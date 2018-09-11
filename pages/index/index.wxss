@@ -23,8 +23,9 @@
 .page-section{
   margin-bottom: 20rpx;
 }
+
 .bottom_flex-wrp {display: flex;}
-.flex-item {width:33%; height: 33%;}
+.flex-item {width:50%; height: 100%;}
 .bottom-section{
   position: fixed;
   width:100%;

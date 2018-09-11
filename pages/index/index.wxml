@@ -5,14 +5,9 @@
     <block wx:else>
       <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+      <button bindtap='navto'>navto</button>
+      <button bindtap='redi'>redi</button>
+      <button bindtap='switchtab'>switchtab</button>
     </block>
-  </view>
-
-  <view class="bottom-section">
-    <view class="bottom_flex-wrp" style="flex-direction:row;">
-      <button class="flex-item">1</button>
-      <button class="flex-item">2</button>
-      <button class="flex-item">3</button>
-    </view>
   </view>
 </view>
