@@ -50,5 +50,10 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
+  },
+  startApp: function(e) {
+    wx.navigateTo({
+      url: '../ToDoList/ToDoList'
+    })
   }
 })

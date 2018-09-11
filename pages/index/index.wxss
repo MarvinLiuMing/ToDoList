@@ -16,6 +16,17 @@
   color: #aaa;
 }
 
-.usermotto {
+.startButton {
   margin-top: 200px;
 }
+
+.page-section{
+  margin-bottom: 20rpx;
+}
+.bottom_flex-wrp {display: flex;}
+.flex-item {width:33%; height: 33%;}
+.bottom-section{
+  position: fixed;
+  width:100%;
+  bottom: 0; 
+  }

@@ -7,7 +7,12 @@
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
     </block>
   </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+
+  <view class="bottom-section">
+    <view class="bottom_flex-wrp" style="flex-direction:row;">
+      <button class="flex-item">1</button>
+      <button class="flex-item">2</button>
+      <button class="flex-item">3</button>
+    </view>
   </view>
 </view>
